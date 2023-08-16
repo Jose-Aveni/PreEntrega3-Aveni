@@ -1,5 +1,2 @@
-# Ignoramos por ahora, luego se eliminará el archivo css de ayuda
-css/estiloss.css
-
 # Paquete json que contiene datos no relevantes para el proyecto
 package.json
