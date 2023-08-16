@@ -1,4 +1,6 @@
+@import "../abstracts/background-map";
+
 body {
-    background-image: url(../images/back.jpg);
-    background-size: 100% 100%;
-  }
+  background-image: map-get($bgbody_img, image);
+  background-size: map-get($bgbody_img, size);
+}

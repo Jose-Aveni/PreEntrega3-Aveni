@@ -1,0 +1,7 @@
+@import "../abstracts/background-map";
+
+.container {
+  background-image: map-get($bgcontainer_img, color);
+  min-width: map-get($bgcontainer_img, min-w);
+}
+

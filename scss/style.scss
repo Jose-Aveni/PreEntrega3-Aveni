@@ -1,6 +1,9 @@
 @import "./abstracts/variables";
-@import "./base/reset";
 @import "./layout/body";
+@import "./base/reset";
+@import "./base/tipografia";
 @import "./layout/header";
+@import "./components/logo";
+@import "./layout/layout";
 @import "./layout/main";
 @import "./layout/footer";

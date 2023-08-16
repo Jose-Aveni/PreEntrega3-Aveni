@@ -1,0 +1,16 @@
+//  Body
+$bgbody_img: (
+  image: url("../images/back.jpg"),
+  size: 100% 100%,
+  );
+
+//   Container
+$bgcontainer_img: (
+    color: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.84) 0%,
+      rgb(248, 233, 216) 50%,
+      rgba(255, 255, 255, 0.84) 100%
+    ),
+    min-w: min-content,
+)

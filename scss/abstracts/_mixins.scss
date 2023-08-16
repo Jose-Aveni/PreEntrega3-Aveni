@@ -1,0 +1,22 @@
+@mixin flex($justify, $align, $direction: row, $wrap: nowrap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@mixin logo {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+}
+
+@mixin img_productos{
+  
+}

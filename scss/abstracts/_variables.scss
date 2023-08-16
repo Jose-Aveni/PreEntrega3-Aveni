@@ -1,21 +1,17 @@
-// @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap");
-// Variables generales
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Oswald:wght@300;500&display=swap');
+
+// Padding, Margin, Border, Outline
+$p_tittle: 10px;
 
 
 // Tipográficas
-$fuentePrincipal: "Oswald", sans-serif;
-$fuenteSecundaria: "Open Sans", sans-serif;
-
+$fuentePrincipal: "Oswald ", sans-serif;
+$fuenteSecundaria: "Josefin Sans";
+$t_center: center;
 
 // Colores
 $colorPrincipal: #fff;
 $colorSecundario: #000;
-$colorFondo: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.84) 0%,
-    rgb(248, 233, 216) 50%,
-    rgba(255, 255, 255, 0.84) 100%
-  );
 
 // Imágenes
 $imagenFondo: url("../images/back.jpg");

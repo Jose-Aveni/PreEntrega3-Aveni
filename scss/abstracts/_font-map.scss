@@ -1,23 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&family=Oswald:wght@200;400;700&display=swap");
+@import "variables";
 
+$f_family: (
+  fuentePrincipal: $fuentePrincipal,
+  fuenteSecundaria: $fuenteSecundaria,
+);
 $f_weight: (
-    // links parrafos titulos
-  claro: 200, 
+  claro: 300,
   normal: 400,
-  oscuro: 700,
+  oscuro: 500,
 );
 $f_size: (
-  h1: 2em,
-  h2: 1.7em,
+  h1: 1.8em,
+  h2: 1.6em,
   h3: 1.5em,
   h4: 1.4em,
   h5: 1.3em,
   h6: 1.2em,
-  P: 1.125rem,
-);
-$f_family: (
-    // links demas
-  oswald: "Oswald",
-  sans-serif,
-  josefin: "Josefin Sans",
+  p: 1.125em,
+  a: 1.125em,
 );
