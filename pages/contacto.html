@@ -55,6 +55,7 @@
         <main class="mainContacto">
             <section class="container min-vh-100">
                 <h1>Contacto</h1>
+                <hr class="w-75 mx-auto mb-4">
                 <h2>Contáctanos para estar siempre al tanto de lo nuevo:</h2>
                 <div class="row">
                     <form class="col-12 d-flex justify-content-center align-content-center"
@@ -68,17 +69,14 @@
                                 <label for="nombre">Nombre</label>
                                 <input type="text" value="" name="nombre" id="nombre" required>
                             </div>
-                            <br>
                             <div>
                                 <label for="apellido">Apellido</label>
                                 <input type="text" value="" name="apellido" id="apellido" required>
                             </div>
-                            <br>
                             <div>
                                 <label for="email">Email</label>
-                                <input type="email" value="" name="email" id="email" required>
+                                <input class="email" type="email" value="" name="email" id="email" required>
                             </div>
-                            <br>
                             <div>
                                 <label for="estado">Estado civil</label>
                                 <select name="estado" id="estado" required>
@@ -88,11 +86,10 @@
                                     <option value="Divorciado">Divorciado</option>
                                 </select>
                             </div>
-                            <br>
+                            <hr>
                             <legend>Comentarios</legend>
-                            <div>
+                            <div class="d-flex flex-column">
                                 <label for="comentarios">Si desea agregar un comentario:</label>
-                                <br>
                                 <textarea name="comentarios"
                                           id="comentarios"
                                           cols="30"
@@ -108,7 +105,6 @@
                                        value="Suscribirse"
                                        checked>
                             </div>
-                            <br>
                             <button type="submit" class="btn btn-outline-secondary mb-3">Enviar</button>
                             <button type="reset" class="btn btn-outline-secondary mb-3 reset">Limpiar formulario</button>
                         </fieldset>
