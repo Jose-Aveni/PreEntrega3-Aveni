@@ -1,0 +1,26 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+.mainNosotrosLogo {
+  p {
+    padding: 10px;
+    margin: $m-0;
+    display: flex;
+    align-items: center;
+  }
+  img {
+    width: 220px;
+    height: 220px;
+    @include boxImgNosotros;
+  }
+}
+.mainNosotrosHumano {
+  p {
+    padding: 5px 50px;
+  }
+  img {
+    @include boxImgNosotros;
+    height: 500px;
+    width: 300px;
+  }
+}

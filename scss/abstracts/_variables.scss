@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Oswald:wght@300;500&display=swap');
-
 // Padding, Margin, Border, Outline
-$p_tittle: 10px;
+$p-tittle: 10px;
+$p-0: 0px;
+$m-0: 0px;
 
+// Width y Height
+$w-100: 100%;
+$h-100: 100%;
 
 // Tipográficas
 $fuentePrincipal: "Oswald ", sans-serif;
 $fuenteSecundaria: "Josefin Sans";
-$t_center: center;
+$t-center: center;
 
 // Colores
 $colorPrincipal: #fff;
