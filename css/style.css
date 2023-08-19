@@ -115,6 +115,23 @@ header .rrss img {
   padding: 10px;
 }
 
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+.whatsapp .whatsapp-icon {
+  margin-top: 13px;
+}
+
 footer {
   margin-top: 20px;
   background-color: rgb(179, 228, 228);
@@ -214,6 +231,9 @@ header .rrss img {
   min-width: min-content;
 }
 
+.mainProductos .gridProd {
+  margin-bottom: 50px;
+}
 .mainProductos div {
   padding: 5px 10px;
 }
