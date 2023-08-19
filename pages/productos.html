@@ -4,6 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet"
+              href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
               rel="stylesheet"
               integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
@@ -11,13 +16,18 @@
         <link rel="stylesheet" href="../css/style.css">
         <title>Productos</title>
     </head>
-    <body> 
+    <body>
+        <a href="https://api.whatsapp.com/send?phone=%2B542615913625&data=ARDotn6SKCaOHUFuxf6tXxlhO5hciRME0z8rbsNB5TV2Ao67mARR3Q_VhmSwOp4iyWNaq3rYoKk45q8XTkj9N6H1PFQEgJlE1hZlxaZQDx9tBll3pQ9GwmPnaCcx8Jn_jLz-492Dr0YhunWWnEk_MjJijw&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR2IRKgeLQe1Q08pt1PZXs64shgEilcucRPfL3VOggUQVITD98d9ZdVlQJ8"
+           class="whatsapp"
+           target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
         <header class="container-fluid">
             <div class="row align-items-center justify-content-around">
                 <div class="logo col-12 col-md-2">
-                    <img src="../images/logo.png" alt="Logo">
+                    <img class="animate__animated animate__zoomIn"
+                         src="../images/logo.png"
+                         alt="Logo">
                 </div>
-                <div class="col-12 d-flex justify-content-center col-md-7">
+                <div class="col-12 d-flex justify-content-center col-md-8">
                     <nav>
                         <ul class="d-flex flex-wrap flex-md-nowrap justify-content-center">
                             <li class="mx-md-3">
@@ -38,11 +48,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="rrss col-12 d-flex justify-content-center col-md-3">
-                    <a href="https://api.whatsapp.com/send?phone=%2B542615913625&data=ARDotn6SKCaOHUFuxf6tXxlhO5hciRME0z8rbsNB5TV2Ao67mARR3Q_VhmSwOp4iyWNaq3rYoKk45q8XTkj9N6H1PFQEgJlE1hZlxaZQDx9tBll3pQ9GwmPnaCcx8Jn_jLz-492Dr0YhunWWnEk_MjJijw&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR2IRKgeLQe1Q08pt1PZXs64shgEilcucRPfL3VOggUQVITD98d9ZdVlQJ8"
-                       target="_blank">
-                        <img src="../images/logowp.png" alt="Whatsapp">
-                    </a>
+                <div class="rrss col-12 d-flex justify-content-center col-md-2">
                     <a href="https://www.instagram.com/lupitas_glutenfree/" target="_blank">
                         <img src="../images/logoinsta.png" alt="Instagram">
                     </a>
@@ -56,63 +62,232 @@
             <section class="container min-vh-100">
                 <h1>¡Conocé nuestros productos!</h1>
                 <div class="row">
-                    <div class="col-12 col-md-6">
-                        <img src="../images/alfajor_chocolate.jpg" alt="Alfajor bañado en chocolate">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
+                        <img src="../images/alfajor_chocolate.jpg"
+                             alt="Alfajor bañado en chocolate">
                         <p>Alfajor bañado en chocolate</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseAlfajor"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseAlfajor">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseAlfajor">
+                            <div class="card card-body">
+                                manteca - azúcar - esencia de vainilla - huevos - fécula de maíz - cacao -
+                                bicarbonato de sodio - polvo de hornear - dulce de leche repostero - chocolate.
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
                         <img src="../images/torta_oreo_bañada.jpg" alt="Torta oreo">
                         <p>Torta oreo</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseTOreo"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseTOreo">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseTOreo">
+                            <div class="card card-body">
+                                queso crema - crema - galletas oreo - manteca - leche - azúcar - gelatina.
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 ">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
                         <img src="../images/brownie_crema.jpg" alt="Brownie con crema">
                         <p>Brownie con crema</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseBrownieCrema"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseBrownieCrema">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseBrownieCrema">
+                            <div class="card card-body">
+                                manteca - chocolate - huevos - azúcar - cacao en polvo - esencia de vainilla -
+                                fécula de mandioca - crema.
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
                         <img src="../images/brownie_decorado.jpg" alt="Brownie con crema decorado">
                         <p>Brownie con crema decorado</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseBrownieDecorado"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseBrownieDecorado">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseBrownieDecorado">
+                            <div class="card card-body">
+                                manteca - chocolate - huevos - azúcar - cacao en polvo - esencia de vainilla -
+                                fécula de mandioca - crema.
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
                         <img src="../images/brownie_frutilla.jpg" alt="Brownie con frutillas">
                         <p>Brownie con frutillas</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseBrownieFrutillas"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseBrownieFrutillas">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseBrownieFrutillas">
+                            <div class="card card-body">
+                                manteca - chocolate - huevos - azúcar - cacao en polvo - esencia de vainilla -
+                                fécula de mandioca - crema - frutillas.
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <img src="../images/tarta_frutilla_arandano.jpg" alt="Tarta de frutillas y arándanos">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
+                        <img src="../images/tarta_frutilla_arandano.jpg"
+                             alt="Tarta de frutillas y arándanos">
                         <p>Tarta de frutillas y arándanos</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseFrutillaArandano"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseFrutillaArandano">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseFrutillaArandano">
+                            <div class="card card-body">
+                                fécula de maiz - polvo de hornear - margarina - azúcar - huevo - esencia de vainilla -
+                                crema - frutillas - arándanos.
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
                         <img src="../images/crumble.jpg" alt="Crumble de manzana">
                         <p>Crumble de manzana</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseCrumbleManzana"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseCrumbleManzana">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseCrumbleManzana">
+                            <div class="card card-body">
+                                manzanas - manteca - azucar - canela - fécula.
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
                         <img src="../images/tarta_ricota.jpg" alt="Tarta de ricota">
                         <p>Tarta de ricota</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseRicota"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseRicota">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseRicota">
+                            <div class="card card-body">
+                                margarina - azúcar - huevo - esencia de vainilla - fécula - polvo de hornear
+                                500 gr ricota - azúcar - manteca - yemas - ralladura de 1/2 limón - esencia de vainilla.
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
                         <img src="../images/lemon_pie.jpg" alt="Lemon pie">
                         <p>Lemon pie</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseLemonPie"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseLemonPie">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseLemonPie">
+                            <div class="card card-body">
+                                galletitas de vainilla - manteca - huevos - leche condensada - jugo de limón
+                                ralladura de medio limón - azúcar.
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
                         <img src="../images/rogel.jpg" alt="Rogel">
                         <p>Rogel</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseRogel"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseRogel">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseRogel">
+                            <div class="card card-body">
+                                manteca - yemas - fécula - agua - sal - azúcar - claras - dulce de leche.
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6">
-                        <img src="../images/tarta_dulce_de_leche.jpg" alt="Tarta de dulce de leche">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
+                        <img src="../images/tarta_dulce_de_leche.jpg"
+                             alt="Tarta de dulce de leche">
                         <p>Tarta de dulce de leche</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseDulceDeLeche"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseDulceDeLeche">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseDulceDeLeche">
+                            <div class="card card-body">
+                                fécula de maiz - polvo de hornear - margarina - azúcar - huevo - esencia de vainilla -
+                                crema - dulce de leche.
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <img src="../images/torre_merengue_frutilla.jpg" alt="Torre de merengue con frutillas">
+                    <div data-aos="zoom-in" class="col-12 col-md-6 gridProd">
+                        <img src="../images/torre_merengue_frutilla.jpg"
+                             alt="Torre de merengue con frutillas">
                         <p>Torre de merengue con frutillas</p>
+                        <p class="d-flex justify-content-center align-items-center gap-1">
+                            <a class="btn btn-dark"
+                               data-bs-toggle="collapse"
+                               href="#collapseMerengueFrutilla"
+                               role="button"
+                               aria-expanded="false"
+                               aria-controls="collapseMerengueFrutilla">Ingredientes</a>
+                        </p>
+                        <div class="collapse" id="collapseMerengueFrutilla">
+                            <div class="card card-body">
+                                claras - azúcar - gotas de limón - crema - azúcar impalpable - dulce de leche - frutillas
+                                arándanos.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -128,5 +303,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
                 crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init();</script>
     </body>
 </html>
