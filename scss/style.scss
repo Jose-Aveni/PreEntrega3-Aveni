@@ -1,11 +1,12 @@
-// Mapas, Variables, Operaciones, Mixin, Nesting y Modularización
-
 @import "./base/reset";
 @import "./layout/body";
 @import "./base/tipografia";
+@import "./layout/header";
 @import "./components/logo";
-@import "./pages/index";
-@import "./pages/nosotros";
-@import "./pages/productos";
-@import "./pages/contenido";
-@import "./pages/contacto";
+@import "./layout/layout";
+@import "./layout/main/main-index";
+@import "./layout/footer";
+@import "./layout/main/main-nosotros";
+@import "./layout/main/main-productos";
+@import "./layout/main/main-contenido";
+@import "./layout/main/main-contacto";
