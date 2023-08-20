@@ -8,8 +8,6 @@
 a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 1.1em;
-  font-weight: 600;
 }
 a:hover {
   color: rgba(0, 0, 0, 0.75);
@@ -72,16 +70,6 @@ h6 {
   font-size: 1.2em;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-}
-.logo img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-}
-
 header {
   background-color: rgb(179, 228, 228);
   padding: 5px 0px;
@@ -95,6 +83,16 @@ header li {
 }
 header .rrss img {
   padding: 0px 5px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
 .container {
@@ -122,7 +120,7 @@ header .rrss img {
   bottom: 40px;
   right: 40px;
   background-color: #25d366;
-  color: #FFF;
+  color: #fff;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
@@ -144,26 +142,6 @@ footer p {
   margin-right: 5px;
   position: relative;
   top: 6px;
-}
-
-header {
-  background-color: rgb(179, 228, 228);
-  padding: 5px 0px;
-}
-header ul {
-  padding: 10px 0px 0px 0px;
-}
-header li {
-  list-style: none;
-  margin: 0px 5px;
-}
-header .rrss img {
-  padding: 0px 5px;
-}
-
-.container {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.84) 0%, rgb(248, 233, 216) 50%, rgba(255, 255, 255, 0.84) 100%);
-  min-width: min-content;
 }
 
 .mainNosotrosLogo p {
@@ -197,40 +175,6 @@ header .rrss img {
   width: 300px;
 }
 
-footer {
-  margin-top: 20px;
-  background-color: rgb(179, 228, 228);
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer p {
-  margin-right: 5px;
-  position: relative;
-  top: 6px;
-}
-
-header {
-  background-color: rgb(179, 228, 228);
-  padding: 5px 0px;
-}
-header ul {
-  padding: 10px 0px 0px 0px;
-}
-header li {
-  list-style: none;
-  margin: 0px 5px;
-}
-header .rrss img {
-  padding: 0px 5px;
-}
-
-.container {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.84) 0%, rgb(248, 233, 216) 50%, rgba(255, 255, 255, 0.84) 100%);
-  min-width: min-content;
-}
-
 .mainProductos .gridProd {
   margin-bottom: 50px;
 }
@@ -246,40 +190,6 @@ header .rrss img {
 }
 .mainProductos p {
   padding: 5px;
-}
-
-footer {
-  margin-top: 20px;
-  background-color: rgb(179, 228, 228);
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer p {
-  margin-right: 5px;
-  position: relative;
-  top: 6px;
-}
-
-header {
-  background-color: rgb(179, 228, 228);
-  padding: 5px 0px;
-}
-header ul {
-  padding: 10px 0px 0px 0px;
-}
-header li {
-  list-style: none;
-  margin: 0px 5px;
-}
-header .rrss img {
-  padding: 0px 5px;
-}
-
-.container {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.84) 0%, rgb(248, 233, 216) 50%, rgba(255, 255, 255, 0.84) 100%);
-  min-width: min-content;
 }
 
 .customCarousel {
@@ -319,40 +229,6 @@ header .rrss img {
   margin: 0px auto;
 }
 
-footer {
-  margin-top: 20px;
-  background-color: rgb(179, 228, 228);
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer p {
-  margin-right: 5px;
-  position: relative;
-  top: 6px;
-}
-
-header {
-  background-color: rgb(179, 228, 228);
-  padding: 5px 0px;
-}
-header ul {
-  padding: 10px 0px 0px 0px;
-}
-header li {
-  list-style: none;
-  margin: 0px 5px;
-}
-header .rrss img {
-  padding: 0px 5px;
-}
-
-.container {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.84) 0%, rgb(248, 233, 216) 50%, rgba(255, 255, 255, 0.84) 100%);
-  min-width: min-content;
-}
-
 .mainContacto label {
   margin-bottom: 10px;
 }
@@ -365,20 +241,6 @@ header .rrss img {
 }
 .mainContacto .reset {
   margin-left: 50px;
-}
-
-footer {
-  margin-top: 20px;
-  background-color: rgb(179, 228, 228);
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer p {
-  margin-right: 5px;
-  position: relative;
-  top: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */
