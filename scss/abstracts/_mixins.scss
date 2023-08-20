@@ -8,11 +8,6 @@
   flex-wrap: $wrap;
 }
 
-%mixin espaciadoNulo {
-  margin: $m-0;
-  padding: $p-0;
-}
-
 @mixin logo {
   display: flex;
   justify-content: center;
