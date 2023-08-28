@@ -81,8 +81,8 @@ header li {
   list-style: none;
   margin: 0px 5px;
 }
-header .rrss img {
-  padding: 0px 5px;
+header .rrss svg {
+  margin: 0px 5px;
 }
 
 .logo {
