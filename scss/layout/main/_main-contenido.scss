@@ -1,29 +1,14 @@
 @import "../../abstracts/variables";
 
 .customCarousel {
-  max-width: 70%;
-  margin: $m-0 auto;
-  overflow: hidden;
-  .carousel {
-    max-height: 80vh;
-  }
-  .carousel-inner {
-    width: $w-100; 
-    height: $h-100;
-    display: flex;
-  }
-  .carousel-item {
-    flex: 0 0 $w-100;
-    max-width: $w-100;
-
+  text-align: center;
+  #carouselContenido {
+    display: inline-block;
+    width: 50%;
     img {
-      object-fit: scale-down;
-      width: calc($w-100 / 2);
-      height: calc($h-100 / 2);
+      display: flex;
+      max-height: 60vh;
     }
-  }
-  button:hover {
-    background: rgba(0, 0, 0, 0.171);
   }
 }
 .customIframe {
